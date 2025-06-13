@@ -101,7 +101,7 @@ Once running locally:
 ![Image](https://github.com/deepthidornala/MedicalChatBot/blob/master/2.png)
 *Chat Interface-*
 ![Image](https://github.com/deepthidornala/MedicalChatBot/blob/master/1.png)
-### Roadmap
+### Future Scope
 
 - Analytics dashboard for trends and usage history.
 
