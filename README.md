@@ -1,103 +1,116 @@
-
-<br/>
+<br />
 <div align="center">
-
-<h3 align="center">Medical Inventory Chatbot</h3>
-
+  <h1> Medical Inventory Chatbot</h1>
+  <p align="center">
+    An intelligent AI-powered chatbot designed to manage and streamline medical inventory tasks through natural language interactions.
+  </p>
 </div>
 
-## About The Project
+---
 
-This project is a Medical Inventory Chatbot designed to efficiently manage and streamline inventory tasks for medical supplies. It utilizes the Google Gemini API fine-tuned with over 500 question prompts to ensure accurate and context-aware responses. The chatbot features a user-friendly interface for seamless interactions, including the ability to add and delete chats, enabling continuous and linked conversations. The application also includes a robust login and signup system to ensure secure access.
-### Built With
+## About the Project
+
+The **Medical Inventory Chatbot** is a full-stack AI-powered platform that allows users to manage medical supplies and inventory using natural language. It integrates **Google Gemini API**, fine-tuned on 500+ inventory-related prompts, to deliver context-aware, multi-turn conversations.
+
+It features a secure login/signup system, supports continuous dialogue, and provides real-time management of chat logs. Whether you’re a hospital admin or a clinic manager, this platform helps you track, query, and control inventory like never before.
+
+---
+
+## Features
+
+- **Conversational Inventory Management**  
+  Chat with the bot to check stock, usage, and needs in real-time.
+
+- **Multi-turn & Linked Chat Support**  
+  Ask follow-up questions for ongoing threads—Gemini handles context.
+
+- **Chat Logs & History**  
+  Add, delete, and manage chats easily through a friendly UI.
+
+- **Authentication System**  
+  Secure signup/login with protected access to chats and features.
+
+- **Backend Integration**  
+  Real-time connection to MongoDB for dynamic inventory updates.
+
+- **Modern Tech Stack**  
+  Built using React, Vite, Django, MongoDB, and the Google Gemini API.
+
+---
+
+## Built With
 
 - [Google Gemini API](https://ai.google.dev/)
-- [Django](https://www.djangoproject.com/)
 - [React](https://reactjs.org)
 - [Vite](https://vite.dev/)
-- [mongodb](https://www.mongodb.com/)
+- [Django](https://www.djangoproject.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+---
+
 ## Getting Started
 
-To set up and run the Medical Inventory Chatbot on your local machine, follow the instructions below.
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/deepthidornala/MedicalChatBot
-2. Install the necessary dependencies (refer to the Installation section below).
-3. Start the development server to view the platform locally.
+Follow these steps to run the chatbot locally.
+
 ### Prerequisites
 
-nsure you have the following installed on your machine:
+Ensure the following are installed:
 
-1. Node.js 
+- Node.js (v16+)
+- Python (>=3.8)
+- Django
+- MongoDB
+- Google Cloud API Key (for Gemini access)
 
-2. Python 
+---
 
-3. Django
+## Installation
 
-4. Mongodb
+### Backend Setup (Django)
 
-5. Google Cloud API Key for accessing Google Gemini API
-### Installation
-
-Backend Setup (Django)
-
-1. Navigate to the backend directory:
-   ```sh
-   cd server
-   ```
-2. Install required Python dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Start the Django server:
-   ```sh
-   npm start
-   ```
-Frontend Setup (React)
-
-1. Navigate to the frontend directory:
-   ```sh
-   cd client
-   ```
-2.Install the required Node.js dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the React development server:
-   ```sh
-   npm run dev
-   ```
+```bash
+cd server
+pip install -r requirements.txt
+python manage.py runserver
+```
+### Frontend Setup (React + Vite)
+```bash
+cd client
+npm install
+npm run dev
+```
 ## Usage
+Once running locally:
 
-Once the project is up and running, you can:
+- Sign Up / Log In via the authentication system.
 
-1. Create an account or log in using the signup/login page.
+- Start a new chat or continue existing ones.
 
-2. Interact with the chatbot by starting a new chat or continuing an existing one.
+- Ask inventory-related questions like:
 
-3. Add, delete, or manage chats through the intuitive interface.
+  - “How many gloves are left?”
 
-4. Ask continuous and related questions to leverage linked answers powered by the fine-tuned Google Gemini API model.
-## Roadmap
+  - “Order 10 boxes of syringes.”
 
-- [x] Initial release with chat functionalities and basic inventory management.
-- [ ] Integrate advanced inventory tracking and order placement features.
-- [ ] Add analytics dashboard for inventory trends and usage.
-- [ ] Implement multi-language support for broader accessibility.
-## Contributing
+-View, delete, or manage previous conversations easily.
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+### Results
+*Sign Up Page -* 
+![Image](https://github.com/deepthidornala/MedicalChatBot/blob/master/3.png)
+*Login In Page -*
+![Image](https://github.com/deepthidornala/MedicalChatBot/blob/master/2.png)
+*Chat Interface-*
+![Image](https://github.com/deepthidornala/MedicalChatBot/blob/master/1.png)
+### Roadmap
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+- Analytics dashboard for trends and usage history.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-## Contact
+- Multi-language support.
 
-Deepthi Dornala  - deepthidornala@gmail.com
+- Mobile app version for on-the-go access.
 
-Project Link: https://github.com/deepthidornala/MedicalChatBot
+### Contact
+Email - deepthidornala@gmail.com
+
+
+
