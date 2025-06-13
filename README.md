@@ -95,12 +95,13 @@ Once running locally:
 -View, delete, or manage previous conversations easily.
 
 ### Results
-*Sign Up Page -* 
-![Image](https://github.com/deepthidornala/MedicalChatBot/blob/master/3.png)
-*Login In Page -*
-![Image](https://github.com/deepthidornala/MedicalChatBot/blob/master/2.png)
-*Chat Interface-*
-![Image](https://github.com/deepthidornala/MedicalChatBot/blob/master/1.png)
+*Demo Video -* 
+![Video](
+
+https://github.com/user-attachments/assets/bc542abe-b6ae-409d-b8a6-97ad930214d5
+
+)
+
 ### Future Scope
 
 - Analytics dashboard for trends and usage history.
