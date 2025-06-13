@@ -96,11 +96,11 @@ Once running locally:
 
 ### Results
 *Demo Video -* 
-![Video](
+
 
 https://github.com/user-attachments/assets/bc542abe-b6ae-409d-b8a6-97ad930214d5
 
-)
+
 
 ### Future Scope
 
